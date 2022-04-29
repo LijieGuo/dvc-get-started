@@ -1,0 +1,8 @@
+stages:
+  prepare:
+    cmd: python output.py
+    deps:
+    - data.txt
+    - output.py
+    outs:
+    - output.txt
